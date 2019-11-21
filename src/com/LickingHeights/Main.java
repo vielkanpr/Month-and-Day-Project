@@ -28,6 +28,10 @@ public class Main {
 
     }
     public static int monthYear(int month, int year) {
-       
+        switch (month) {
+            case 1:
+                System.out.println("You were born on January .This month has 31 days.");
+                break;
+        }
 
 }
