@@ -32,6 +32,48 @@ public class Main {
             case 1:
                 System.out.println("You were born on January .This month has 31 days.");
                 break;
+            case 3:
+                System.out.println("You were born on March .This month has 31 days.");
+                break;
+            case 5:
+                System.out.println("You were born on May. This month has 31 days.");
+                break;
+            case 7:
+                System.out.println("You were born on July. This month has 31 days.");
+                break;
+            case 8:
+                System.out.println("You were born on August. This month has 31 days.");
+                break;
+            case 10:
+                System.out.println("You were born on  October. This month has 31 days.");
+                break;
+            case 12:
+                System.out.println("You were born on December. This month has 31 days.");
+                break;
+            case 4:
+                System.out.println("You were born on April. This month has 30 days.");
+                break;
+            case 6:
+                System.out.println("You were born on June. This month has 30 days.");
+                break;
+            case 9:
+                System.out.println("You were born on September. This month has 30 days.");
+                break;
+            case 11:
+                System.out.println("You were born on November. This month has 30 days.");
+                break;
+           
+            default:
+                System.out.println("Not a month");
         }
+        return 0;
+    }
+
+
+
+
+
+
+
 
 }
