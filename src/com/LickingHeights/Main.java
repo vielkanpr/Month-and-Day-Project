@@ -62,7 +62,13 @@ public class Main {
             case 11:
                 System.out.println("You were born on November. This month has 30 days.");
                 break;
-           
+            case 2:
+                if (year % 4 == 0 || year % 400 == 0) {
+                    return 29;
+
+                } else {
+                    return 28;
+                }
             default:
                 System.out.println("Not a month");
         }
