@@ -25,4 +25,9 @@ public class Main {
         int year = keyboard.nextInt();
         monthYear(month, year );
 
+
+    }
+    public static int monthYear(int month, int year) {
+       
+
 }
